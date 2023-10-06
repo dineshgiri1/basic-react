@@ -6,7 +6,7 @@ import { useState } from 'react';
 function App() {
  //const [name , setName] = useState(" ");
   //setName = ("din din time to go hommmmee");
-  //const [count, setCount] = useState(7);
+  const [count, setCount] = useState(7);
   const [clickedButton, setClickedButton] = useState(false);
   const[surprise ,setSurpise ] = useState(10)
   return (
